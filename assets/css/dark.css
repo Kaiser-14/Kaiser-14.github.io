@@ -79,6 +79,35 @@ body.dark h6 {
 	color: #fff
 }
 
+/*Mobile menu*/
+body.dark .tokyo_tm_all_wrap .tokyo_tm_mobile_menu {
+	background-color: #000
+}
+
+body.dark .tokyo_tm_all_wrap .tokyo_tm_mobile_menu .menu ul li a {
+	color: #bbb
+}
+
+body.dark .tokyo_tm_all_wrap .tokyo_tm_mobile_menu .menu ul li a:hover {
+	color: #fff
+}
+
+body.dark .tokyo_tm_all_wrap .tokyo_tm_mobile_menu .menu ul li.active a {
+	color: #fff
+}
+
+body.dark .tokyo_tm_all_wrap .tokyo_tm_mobile_menu .copyright p {
+	color: #bbb
+}
+
+body.dark .tokyo_tm_all_wrap .tokyo_tm_mobile_menu .copyright a {
+	color: #bbb
+}
+
+body.dark .tokyo_tm_all_wrap .tokyo_tm_mobile_menu .copyright a:hover {
+	color: #fff
+}
+
 body.dark .tokyo_tm_all_wrap .leftpart {
 	background-color: #000
 }
