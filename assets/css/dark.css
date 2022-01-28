@@ -257,6 +257,10 @@ body.dark .tokyo_tm_modalbox_news .main_content .descriptions p {
 	color: #767676
 }
 
+/*body.dark .tokyo_tm_modalbox_news .main_content .descriptions {*/
+/*	background-color: #000*/
+/*}*/
+
 body.dark .tokyo_tm_contact .fields ul li input {
 	border: 1px solid rgba(255, 255, 255, .2);
 	color: #fff
@@ -285,7 +289,7 @@ body.dark .tokyo_tm_news ul li .extra:before {
 }
 
 body.dark .tokyo_tm_read_more a {
-	color: #fff
+	color: #4a3e01
 }
 
 body.dark .tokyo_tm_read_more a span {
