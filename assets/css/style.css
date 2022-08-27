@@ -537,8 +537,7 @@ h6 {
 }
 
 .tokyo_tm_about .about_image img {
-	opacity: 0;
-	min-width: 100%
+	width: 100%
 }
 
 .tokyo_tm_about .about_image .main {
@@ -549,12 +548,7 @@ h6 {
 	right: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center
-}
-
-.tokyo_tm_about .about_image img {
-	min-width: 100%;
-	box-shadow: 0 0 20px rgba(0, 0, 0, .12)
+	background-position: center;
 }
 
 .tokyo_tm_about .description {
@@ -1826,7 +1820,8 @@ h6 {
 
 .tokyo_tm_modalbox_news.opened {
 	opacity: 1;
-	visibility: visible
+	visibility: visible;
+	/*background-color: white;*/
 }
 
 .tokyo_tm_modalbox_news .container {
@@ -1856,7 +1851,8 @@ h6 {
 .tokyo_tm_modalbox_news.opened .box_inner {
 	opacity: 1;
 	visibility: visible;
-	margin-top: 0
+	margin-top: 0;
+	background-color: white;
 }
 
 .tokyo_tm_modalbox_news .close {
@@ -1982,6 +1978,10 @@ body.modal {
 	width: 100%;
 	float: left;
 	margin-bottom: 15px
+}
+
+div.description_wrap>div.main_content>div.descriptions>p {
+	color:black;
 }
 
 .tokyo_tm_modalbox_portfolio .main_content .descriptions .bigger {

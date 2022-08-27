@@ -96,22 +96,22 @@ function tokyo_tm_cursor_switcher() {
 }
 
 function tokyo_tm_menu() {
-	"use strict";
-	var list = jQuery('.tokyo_tm_all_wrap .leftpart .menu ul li,.tokyo_tm_mobile_menu .menu ul li');
-	var vContent = jQuery('.tokyo_tm_all_wrap');
-	var vSection = jQuery('.tokyo_tm_section');
-	list.on('click', function () {
-		var element = jQuery(this);
-		var myHref = element.find('a').attr('href');
-		if (!element.hasClass('active')) {
-			list.removeClass('active');
-			element.addClass('active');
-			vSection.removeClass('active');
-			vContent.find(myHref).addClass('active').animate({
-				scrollTop: 0
-			});
-		}
-	});
+    "use strict";
+    var list = jQuery('.tokyo_tm_all_wrap .leftpart .menu ul li,.tokyo_tm_mobile_menu .menu ul li, .tokyo_tm_mobile_menu .menu_inner .logo, .leftpart .leftpart_inner .logo');
+    var vContent = jQuery('.tokyo_tm_all_wrap');
+    var vSection = jQuery('.tokyo_tm_section');
+    list.on('click', function () {
+        var element = jQuery(this);
+        var myHref = element.find('a').attr('href');
+        if (!element.hasClass('active')) {
+            list.removeClass('active');
+            element.addClass('active');
+            vSection.removeClass('active');
+            vContent.find(myHref).addClass('active').animate({
+                scrollTop: 0
+            });
+        }
+    });
 }
 
 function tokyo_tm_modalbox_news() {
