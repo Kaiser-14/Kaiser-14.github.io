@@ -266,8 +266,7 @@ body.dark .tokyo_tm_modalbox_news .main_content .descriptions p {
 	/*background-color: black*/
 	/*background-color: rgba(255, 255, 255, .2);*/
 }
-/* modal_dark */
-.tokyo_tm_modalbox_news.opened .box_inner{
+.tokyo_tm_modalbox_news.modal_dark .box_inner {
 	opacity: 1;
 	visibility: visible;
 	margin-top: 0;
@@ -315,4 +314,10 @@ body.dark .tokyo_tm_read_more a:before {
 
 body.dark .tokyo_tm_news ul li .list_inner {
 	box-shadow: 0 0 20px rgb(255 255 255/7%)
+}
+
+svg {
+	fill: white;
+	width: 15px;
+	height: 15px
 }

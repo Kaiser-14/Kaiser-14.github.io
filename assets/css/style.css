@@ -1848,7 +1848,7 @@ h6 {
 	transition: all .3s ease
 }
 
-.tokyo_tm_modalbox_news.opened .box_inner {
+.tokyo_tm_modalbox_news.modal_light .box_inner {
 	opacity: 1;
 	visibility: visible;
 	margin-top: 0;
