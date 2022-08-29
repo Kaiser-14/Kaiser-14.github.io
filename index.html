@@ -23,6 +23,8 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/plugins.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/dark.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/colors.css"/>
@@ -79,18 +81,49 @@
         </div>
     </div>
     <div class="tokyo_tm_mobile_menu">
-        <div class="menu_inner">
+        <!--        <div class="menu_inner">-->
+        <!--            <div class="logo">-->
+        <!--                <a href="#home"><img src="assets/img/logo/golden.png" alt=""/></a>-->
+        <!--            </div>-->
+        <!--            <div class="menu">-->
+        <!--                <ul>-->
+        <!--                    <li><a href="#home"><img class="svg" src="assets/img/svg/home.svg" alt=""/></a></li>-->
+        <!--                    <li><a href="#about"><img class="svg" src="assets/img/svg/profile.svg" alt=""/></a></li>-->
+        <!--                    <li><a href="#experience"><img class="svg" src="assets/img/svg/work.svg" alt=""/></a></li>-->
+        <!--                    <li><a href="#portfolio"><img class="svg" src="assets/img/svg/receipt.svg" alt=""/></a></li>-->
+        <!--                    <li><a href="#research"><img class="svg" src="assets/img/svg/mail.svg" alt=""/></a></li>-->
+        <!--                </ul>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="hamburger" onclick="hamburgerMenuToggle()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!--            <a href="#home" class="active">Logo</a>-->
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <!--                <a href="#news">News</a>-->
+                <!--                <a href="#contact">Contact</a>-->
+                <!--                <a href="#about">About</a>-->
+                <div class="menu">
+                    <ul>
+                        <!--                            <li><a href="#home"><img class="svg" src="assets/img/svg/home.svg" alt=""/> Home</a></li>-->
+                        <!--                            <li><a href="#about"><img class="svg" src="assets/img/svg/profile.svg" alt=""/> Profile</a></li>-->
+                        <!--                            <li><a href="#experience"><img class="svg" src="assets/img/svg/work.svg" alt=""/> Work</a></li>-->
+                        <!--                            <li><a href="#portfolio"><img class="svg" src="assets/img/svg/receipt.svg" alt=""/> Portfolio</a></li>-->
+                        <!--                            <li><a href="#research"><img class="svg" src="assets/img/svg/mail.svg" alt=""/> Research</a></li>-->
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Profile</a></li>
+                        <li><a href="#experience">Work</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#research">Research</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="logo">
                 <a href="#home"><img src="assets/img/logo/golden.png" alt=""/></a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#home"><img class="svg" src="assets/img/svg/home.svg" alt=""/></a></li>
-                    <li><a href="#about"><img class="svg" src="assets/img/svg/profile.svg" alt=""/></a></li>
-                    <li><a href="#experience"><img class="svg" src="assets/img/svg/work.svg" alt=""/></a></li>
-                    <li><a href="#portfolio"><img class="svg" src="assets/img/svg/receipt.svg" alt=""/></a></li>
-                    <li><a href="#research"><img class="svg" src="assets/img/svg/mail.svg" alt=""/></a></li>
-                </ul>
             </div>
         </div>
     </div>
@@ -99,6 +132,8 @@
             <div class="logo">
                 <a href="#home"><img src="assets/img/logo/golden.png" alt=""/></a>
             </div>
+            <span class="sr-only">Hamburger Menu</span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
             <div class="menu">
                 <ul>
                     <li class="active"><a href="#home">Home</a></li>

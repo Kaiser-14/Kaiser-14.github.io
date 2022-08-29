@@ -499,3 +499,12 @@ function tokyo_tm_owl_carousel() {
 	});
 	tokyo_tm_imgtosvg();
 }
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function hamburgerMenuToggle() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
