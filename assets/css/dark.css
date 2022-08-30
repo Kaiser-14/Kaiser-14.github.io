@@ -144,6 +144,22 @@ body.dark .tokyo_tm_all_wrap .rightpart_in {
 	border-left-color: #202020
 }
 
+body.dark .tokyo_tm_all_wrap .leftpart .leftpart_inner .svg {
+    /*color: pink;*/
+    /*background-color: pink;*/
+    color: white;
+    /*width: 25px;*/
+    /*height: 25px;*/
+    /*outline: none;*/
+    /*animation: fa-spin 2s infinite linear*/
+}
+
+body.dark .fa-fw {
+    /*width: auto;*/
+    background-color: black;
+    /*border: none;*/
+}
+
 body.dark .tokyo_tm_home .social ul li .svg {
 	color: #fff
 }
@@ -267,7 +283,7 @@ body.dark .tokyo_tm_modalbox_news .main_content .descriptions p {
 	/*background-color: rgba(255, 255, 255, .2);*/
 }
 /* modal_light */
-.tokyo_tm_modalbox_news.opened .box_inner{
+.tokyo_tm_modalbox_news.modal_dark .box_inner{
 	opacity: 1;
 	visibility: visible;
 	margin-top: 0;
@@ -318,7 +334,7 @@ body.dark .tokyo_tm_news ul li .list_inner {
 }
 
 svg {
-	fill: white;
+	fill: grey;
 }
 
 .topnav a.hamburger {

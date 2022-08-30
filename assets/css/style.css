@@ -17,7 +17,7 @@ body {
 }
 
 svg {
-    fill: currentcolor;
+    /*fill: currentcolor;*/
     width: 15px;
     height: 15px
 }
@@ -73,7 +73,7 @@ h6 {
     font-weight: 500;
     line-height: 1.4;
     font-family: montserrat;
-    color: #000
+    color: #4a3e01
 }
 
 h1 {
@@ -629,7 +629,7 @@ h6 {
     width: 100%;
     height: auto;
     clear: both;
-    float: left
+    float: left;
 }
 
 .tokyo_tm_button a {
@@ -1825,7 +1825,7 @@ h6 {
     transition: all .3s ease
 }
 
-.tokyo_tm_modalbox_news.opened {
+.tokyo_tm_modalbox_news.modal_light {
     opacity: 1;
     visibility: visible;
     /*background-color: white;*/
@@ -1859,7 +1859,7 @@ h6 {
     opacity: 1;
     visibility: visible;
     margin-top: 0;
-    background-color: white;
+    /*background-color: currentColor;*/
 }
 
 .tokyo_tm_modalbox_news .close {
@@ -2262,6 +2262,31 @@ div.description_wrap > div.main_content > div.descriptions > p {
 .tokyo_tm_all_wrap[data-magic-cursor=hide] .mouse-cursor {
     display: none
 }
+
+/*.tokyo_tm_all_wrap .leftpart .leftpart_inner .svg {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    outline: none;*/
+/*    !*animation: fa-spin 2s infinite linear*!*/
+/*}*/
+
+.fas {
+    width: auto;
+    margin: 10px 10px;
+}
+
+.fa-fw {
+    width: auto;
+    background-color: white;
+    border: none;
+    color: currentColor;
+}
+
+.fa-moon {
+    width: auto;
+    height: auto;
+}
+
 
 .mouse-cursor {
     position: fixed;
@@ -3084,25 +3109,24 @@ body.dark .tokyo_tm_settings .cursor li .svg,
     /*color: black;*/
 }
 
-/* Style the active link (or home/logo) */
-/*.active {*/
-/*  !*background-color: #04AA6D;*!*/
-/*  !*color: white;*!*/
-/*}*/
+.topnav .theme_mobile {
+    /*float: right;*/
+    /*margin: -5px 5px;*/
+}
 
 body{margin-top:20px;}
 .timeline {
-    border-left: 2px solid #4a3e01;
+    /*border-left: 2px solid #4a3e01;*/
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     /*background: rgba(114, 124, 245, 0.09);*/
-    margin: 0 auto;
+    margin: 0 -20px;
     letter-spacing: 0.2px;
     position: absolute;
     line-height: 1.4em;
     font-size: 1.03em;
     padding: 10px;
-    list-style: none;
+    list-style: circle;
     text-align: left;
     max-width: 100%;
 }

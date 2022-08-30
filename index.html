@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/plugins.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/dark.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/colors.css"/>
@@ -64,10 +64,9 @@
         gtag('config', 'G-XRBC5ZMCHZ');
     </script>
 </head>
-<body>
-<input type="hidden" id="tema" value="dark"/>
-<!--<body class="dark">-->
-<!--<body class="dark || light">-->
+<body class="light">
+<input type="hidden" id="theme" value="light"/>
+
 <div id="preloader">
     <div class="loader_line"></div>
 </div>
@@ -103,6 +102,13 @@
             </a>
             <!--            <a href="#home" class="active">Logo</a>-->
             <!-- Navigation links (hidden by default) -->
+            <div class="logo">
+                <a href="#home"><img src="assets/img/logo/golden.png" alt=""/></a>
+            </div>
+            <div class="theme_mobile">
+<!--                <button id="theme-button1" class="fas fa-fw fa-moon fa-2x">-->
+<!--                </button>-->
+            </div>
             <div id="myLinks">
                 <!--                <a href="#news">News</a>-->
                 <!--                <a href="#contact">Contact</a>-->
@@ -114,17 +120,22 @@
                         <!--                            <li><a href="#experience"><img class="svg" src="assets/img/svg/work.svg" alt=""/> Work</a></li>-->
                         <!--                            <li><a href="#portfolio"><img class="svg" src="assets/img/svg/receipt.svg" alt=""/> Portfolio</a></li>-->
                         <!--                            <li><a href="#research"><img class="svg" src="assets/img/svg/mail.svg" alt=""/> Research</a></li>-->
+                        <!--                        <div class="logo">-->
+                        <!--                            <a href="#home"><img src="assets/img/logo/golden.png" alt=""/></a>-->
+                        <!--                        </div>-->
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#experience">Work</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#research">Research</a></li>
+                        <li><button id="theme-button1" class="fas fa-fw fa-moon fa-lg">
+                </button></li>
                     </ul>
                 </div>
             </div>
-            <div class="logo">
-                <a href="#home"><img src="assets/img/logo/golden.png" alt=""/></a>
-            </div>
+            <!--            <div class="logo">-->
+            <!--                <a href="#home"><img src="assets/img/logo/golden.png" alt=""/></a>-->
+            <!--            </div>-->
         </div>
     </div>
     <div class="leftpart">
@@ -143,7 +154,8 @@
                     <li><a href="#research">Research</a></li>
                 </ul>
             </div>
-            <button class="btn-toggle">Toggle Dark-Mode</button>
+            <button id="theme-button2" class="fas fa-fw fa-moon fa-lg">
+            </button>
         </div>
     </div>
     <div class="rightpart">
@@ -246,27 +258,32 @@
                                                         <div id="content">
                                                             <ul class="timeline">
                                                                 <li class="event" data-date="2021 - 2024">
-                                                                    <h3>PhD in Communications Technologies and Systems</h3>
-<!--                                                                    <p>Get here on time, it's first come first serve. Be-->
-<!--                                                                        late, get turned away.</p>-->
+                                                                    <h3>PhD in Communications Technologies and
+                                                                        Systems</h3>
+                                                                    <!--                                                                    <p>Get here on time, it's first come first serve. Be-->
+                                                                    <!--                                                                        late, get turned away.</p>-->
                                                                     <p>PhD's thesis: Pending</p>
                                                                 </li>
                                                                 <li class="event" data-date="2019 - 2020">
-                                                                    <h3>M.S. in Signal Processing and Machine Learning for Big Data</h3>
-<!--                                                                    <p>Get ready for an exciting event, this will kick-->
-<!--                                                                        off in amazing fashion with MOP &amp; Busta-->
-<!--                                                                        Rhymes as an opening show.</p>-->
+                                                                    <h3>M.S. in Signal Processing and Machine Learning
+                                                                        for Big Data</h3>
+                                                                    <!--                                                                    <p>Get ready for an exciting event, this will kick-->
+                                                                    <!--                                                                        off in amazing fashion with MOP &amp; Busta-->
+                                                                    <!--                                                                        Rhymes as an opening show.</p>-->
                                                                     <p>
-                                                                        Master's thesis: 5G Media QoE Optimization based on Reinforcement Learning algorithms (A2C)
+                                                                        Master's thesis: 5G Media QoE Optimization based
+                                                                        on Reinforcement Learning algorithms (A2C)
                                                                     </p>
                                                                 </li>
                                                                 <li class="event" data-date="2011 - 2018">
-                                                                    <h3>B.S. in Mobile and Space Communications Engineering, Telecommunication Engineer</h3>
-<!--                                                                    <p>This is where it all goes down. You will compete-->
-<!--                                                                        head to head with your friends and rivals. Get-->
-<!--                                                                        ready!</p>-->
+                                                                    <h3>B.S. in Mobile and Space Communications
+                                                                        Engineering, Telecommunication Engineer</h3>
+                                                                    <!--                                                                    <p>This is where it all goes down. You will compete-->
+                                                                    <!--                                                                        head to head with your friends and rivals. Get-->
+                                                                    <!--                                                                        ready!</p>-->
                                                                     <p>
-                                                                       Bachelor's thesis: Analysis of IPv6 Multicast Traffic in a Network Emulator
+                                                                        Bachelor's thesis: Analysis of IPv6 Multicast
+                                                                        Traffic in a Network Emulator
                                                                     </p>
                                                                 </li>
                                                             </ul>
@@ -305,14 +322,14 @@
                                     </div>
                                     <div class="details">
                                         <div class="extra">
-<!--                                            <div class="short">-->
-<!--                                                <p class="date">January 2020 <span>Ongoing</span></p>-->
-<!--                                            </div>-->
-<!--                                            <div class="my_like">-->
-<!--                                                <a href="https://github.com/Kaiser-14/DRL_QoE_A2C"><img class="svg"-->
-<!--                                                                                                        src="assets/img/svg/location.svg"-->
-<!--                                                                                                        alt=""/><span>GitHub</span></a>-->
-<!--                                            </div>-->
+                                            <!--                                            <div class="short">-->
+                                            <!--                                                <p class="date">January 2020 <span>Ongoing</span></p>-->
+                                            <!--                                            </div>-->
+                                            <!--                                            <div class="my_like">-->
+                                            <!--                                                <a href="https://github.com/Kaiser-14/DRL_QoE_A2C"><img class="svg"-->
+                                            <!--                                                                                                        src="assets/img/svg/location.svg"-->
+                                            <!--                                                                                                        alt=""/><span>GitHub</span></a>-->
+                                            <!--                                            </div>-->
                                         </div>
                                         <h3 class="title"><a href="https://github.com/Kaiser-14/DRL_QoE_A2C">5G
                                             Multimedia QoE Optimization</a></h3>
@@ -358,13 +375,13 @@
                                     </div>
                                     <div class="details">
                                         <div class="extra">
-<!--                                            <div class="short">-->
-<!--                                                <p class="date">July 2018 <span>December 2018</span></p>-->
-<!--                                            </div>-->
-<!--                                            <div class="my_like">-->
-<!--                                                <a href="https://github.com/Kaiser-14/songs-genre-prediction"><img-->
-<!--                                                        class="svg" src="assets/img/svg/location.svg" alt=""/><span>GitHub</span></a>-->
-<!--                                            </div>-->
+                                            <!--                                            <div class="short">-->
+                                            <!--                                                <p class="date">July 2018 <span>December 2018</span></p>-->
+                                            <!--                                            </div>-->
+                                            <!--                                            <div class="my_like">-->
+                                            <!--                                                <a href="https://github.com/Kaiser-14/songs-genre-prediction"><img-->
+                                            <!--                                                        class="svg" src="assets/img/svg/location.svg" alt=""/><span>GitHub</span></a>-->
+                                            <!--                                            </div>-->
                                         </div>
                                         <h3 class="title"><a href="https://github.com/Kaiser-14/songs-genre-prediction">Song’s
                                             Genre prediction based on Lyrics</a></h3>
@@ -410,13 +427,13 @@
                                     </div>
                                     <div class="details">
                                         <div class="extra">
-<!--                                            <div class="short">-->
-<!--                                                <p class="date">May 2016 <span>April 2017</span></p>-->
-<!--                                            </div>-->
-<!--                                            <div class="my_like">-->
-<!--                                                <a href="https://github.com/Kaiser-14/books-recommendation-system"><img-->
-<!--                                                        class="svg" src="assets/img/svg/location.svg" alt=""/><span>GitHub</span></a>-->
-<!--                                            </div>-->
+                                            <!--                                            <div class="short">-->
+                                            <!--                                                <p class="date">May 2016 <span>April 2017</span></p>-->
+                                            <!--                                            </div>-->
+                                            <!--                                            <div class="my_like">-->
+                                            <!--                                                <a href="https://github.com/Kaiser-14/books-recommendation-system"><img-->
+                                            <!--                                                        class="svg" src="assets/img/svg/location.svg" alt=""/><span>GitHub</span></a>-->
+                                            <!--                                            </div>-->
                                         </div>
                                         <h3 class="title"><a
                                                 href="https://github.com/Kaiser-14/books-recommendation-system">Recommender
@@ -447,14 +464,14 @@
                                     </div>
                                     <div class="details">
                                         <div class="extra">
-<!--                                            <div class="short">-->
-<!--                                                <p class="date">May 2015 <span>April 2016</span></p>-->
-<!--                                            </div>-->
-<!--                                            <div class="my_like">-->
-<!--                                                <a href="https://github.com/Kaiser-14/rest-api-server"><img class="svg"-->
-<!--                                                                                                            src="assets/img/svg/location.svg"-->
-<!--                                                                                                            alt=""/><span>GitHub</span></a>-->
-<!--                                            </div>-->
+                                            <!--                                            <div class="short">-->
+                                            <!--                                                <p class="date">May 2015 <span>April 2016</span></p>-->
+                                            <!--                                            </div>-->
+                                            <!--                                            <div class="my_like">-->
+                                            <!--                                                <a href="https://github.com/Kaiser-14/rest-api-server"><img class="svg"-->
+                                            <!--                                                                                                            src="assets/img/svg/location.svg"-->
+                                            <!--                                                                                                            alt=""/><span>GitHub</span></a>-->
+                                            <!--                                            </div>-->
                                         </div>
                                         <h3 class="title"><a href="https://github.com/Kaiser-14/rest-api-server">REST
                                             API server</a></h3>
@@ -485,14 +502,14 @@
                                     <span>Experience</span>
                                     <h3>Professional Experience</h3>
                                 </div>
-<!--                                <div class="news_filter">-->
-<!--                                    <ul>-->
-<!--                                        <li><a href="#" class="current" data-filter="*">All</a></li>-->
-<!--                                        <li><a href="#" data-filter=".work">Work</a></li>-->
-<!--                                        <li><a href="#" data-filter=".education">Education</a></li>-->
-<!--                                        &lt;!&ndash;                                        <li><a href="#" data-filter=".youtube">Publications</a></li>&ndash;&gt;-->
-<!--                                    </ul>-->
-<!--                                </div>-->
+                                <!--                                <div class="news_filter">-->
+                                <!--                                    <ul>-->
+                                <!--                                        <li><a href="#" class="current" data-filter="*">All</a></li>-->
+                                <!--                                        <li><a href="#" data-filter=".work">Work</a></li>-->
+                                <!--                                        <li><a href="#" data-filter=".education">Education</a></li>-->
+                                <!--                                        &lt;!&ndash;                                        <li><a href="#" data-filter=".youtube">Publications</a></li>&ndash;&gt;-->
+                                <!--                                    </ul>-->
+                                <!--                                </div>-->
                             </div>
                         </div>
                         <ul>
@@ -653,130 +670,130 @@
                                         </div>
                                     </div>
                             </li>
-<!--                            <li>-->
-<!--                                <div class="list_inner">-->
-<!--                                    <div class="image">-->
-<!--                                        <img src="assets/img/jpg/exp/phd2.jpg" alt=""/>-->
-<!--                                        <div class="main" data-img-url="assets/img/jpg/exp/phd2.jpg"></div>-->
-<!--                                        <a class="tokyo_tm_full_link" href="#"></a>-->
-<!--                                    </div>-->
-<!--                                    <div class="details">-->
-<!--                                        <div class="extra">-->
-<!--                                            <div class="short">-->
-<!--                                                <p class="date">Feb 2021 <span>Ongoing</span></p>-->
-<!--                                            </div>-->
-<!--                                            <div class="my_like">-->
-<!--                                                <a href="https://ssr.upm.es/en/doctorado/"><img class="svg"-->
-<!--                                                                                                src="assets/img/svg/location.svg"-->
-<!--                                                                                                alt=""/><span>Madrid</span></a>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                        <h3 class="title"><a href="#">PhD in Communications Technologies and Systems</a>-->
-<!--                                        </h3>-->
-<!--                                        <p>Technical University of Madrid</p>-->
-<!--                                        <div class="tokyo_tm_read_more">-->
-<!--                                            <a href="#"><span>Read More</span></a>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="main_content">-->
-<!--                                        <div class="descriptions">-->
-<!--                                            &lt;!&ndash;                                                <p class="bigger">Telefónica.</p>&ndash;&gt;-->
-<!--                                            <p>This PhD program aims to produce high-level PhD theses in the fields-->
-<!--                                                of:</p>-->
-<!--                                            <p>- Radicommunications.</p>-->
-<!--                                            <p>- Optical communications.</p>-->
-<!--                                            <p>- Signal processing.</p>-->
-<!--                                            <p>- Audiovisual systems.</p>-->
-<!--                                            <p>It is also intended to promote the personal development of PhD students-->
-<!--                                                through participation in international research projects and stages in-->
-<!--                                                prestigious research centers abroad.</p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </li>-->
-<!--                            <li>-->
-<!--                                <div class="list_inner">-->
-<!--                                    <div class="image">-->
-<!--                                        <img src="assets/img/jpg/exp/master.jpg" alt=""/>-->
-<!--                                        <div class="main" data-img-url="assets/img/jpg/exp/master.jpg"></div>-->
-<!--                                        <a class="tokyo_tm_full_link" href="#"></a>-->
-<!--                                    </div>-->
-<!--                                    <div class="details">-->
-<!--                                        <div class="extra">-->
-<!--                                            <div class="short">-->
-<!--                                                <p class="date">Feb 2019 <span>Jan 2020</span></p>-->
-<!--                                            </div>-->
-<!--                                            <div class="my_like">-->
-<!--                                                <a href="https://ssr.upm.es/en/mutsc/"><img class="svg"-->
-<!--                                                                                            src="assets/img/svg/location.svg"-->
-<!--                                                                                            alt=""/><span>Madrid</span></a>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                        <h3 class="title"><a href="#">M.S. in Signal Processing and Machine Learning for-->
-<!--                                            Big Data</a></h3>-->
-<!--                                        <p>Technical University of Madrid</p>-->
-<!--                                        <div class="tokyo_tm_read_more">-->
-<!--                                            <a href="#"><span>Read More</span></a>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="main_content">-->
-<!--                                        <div class="descriptions">-->
-<!--                                            <p class="bigger">Master's thesis: 5G Media QoE Optimization based on-->
-<!--                                                Reinforcement Learning algorithms (A2C).</p>-->
-<!--                                            <p>- Fundamental courses on statistical analysis, time series analysis and-->
-<!--                                                optimization methods for machine learning and signal processing-->
-<!--                                                techniques.</p>-->
-<!--                                            <p>- Knowledge of real-world signals, such as speech, images, movies, music,-->
-<!--                                                biological and sensor readings and financial series.</p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                            </li>-->
-<!--                            <li>-->
-<!--                                <div class="list_inner" style="display:none">-->
-<!--                                    <div class="image">-->
-<!--                                    </div>-->
-<!--                                    <div class="details">-->
-<!--                                    </div>-->
-<!--                                    <div class="main_content">-->
-<!--                                        <div class="descriptions">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                            </li>-->
-<!--                            <li>-->
-<!--                                <div class="list_inner">-->
-<!--                                    <div class="image">-->
-<!--                                        <img src="assets/img/jpg/exp/degree.jpg" alt=""/>-->
-<!--                                        <div class="main" data-img-url="assets/img/jpg/exp/degree.jpg"></div>-->
-<!--                                        <a class="tokyo_tm_full_link" href="#"></a>-->
-<!--                                    </div>-->
-<!--                                    <div class="details">-->
-<!--                                        <div class="extra">-->
-<!--                                            <div class="short">-->
-<!--                                                <p class="date">Sep 2011 <span>Jan 2018</span></p>-->
-<!--                                            </div>-->
-<!--                                            <div class="my_like">-->
-<!--                                                <a href="https://www.uc3m.es/bachelor-degree/mobile-space-communications"><img-->
-<!--                                                        class="svg" src="assets/img/svg/location.svg" alt=""/><span>Madrid</span></a>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                        <h3 class="title"><a href="#">B.S. in Mobile and Space Communications-->
-<!--                                            Engineering, Telecommunication Engineer</a></h3>-->
-<!--                                        <p>Carlos III University of Madrid</p>-->
-<!--                                        <div class="tokyo_tm_read_more">-->
-<!--                                            <a href="#"><span>Read More</span></a>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="main_content">-->
-<!--                                        <div class="descriptions">-->
-<!--                                            <p class="bigger">Bachelor's thesis: Analysis of IPv6 Multicast Traffic in a-->
-<!--                                                Network Emulator.</p>-->
-<!--                                            <p>- Base of treatment and signal propagation in different physical-->
-<!--                                                media.</p>-->
-<!--                                            <p>- Knowledge needed to develop electronic communication systems.</p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </li>-->
+                            <!--                            <li>-->
+                            <!--                                <div class="list_inner">-->
+                            <!--                                    <div class="image">-->
+                            <!--                                        <img src="assets/img/jpg/exp/phd2.jpg" alt=""/>-->
+                            <!--                                        <div class="main" data-img-url="assets/img/jpg/exp/phd2.jpg"></div>-->
+                            <!--                                        <a class="tokyo_tm_full_link" href="#"></a>-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="details">-->
+                            <!--                                        <div class="extra">-->
+                            <!--                                            <div class="short">-->
+                            <!--                                                <p class="date">Feb 2021 <span>Ongoing</span></p>-->
+                            <!--                                            </div>-->
+                            <!--                                            <div class="my_like">-->
+                            <!--                                                <a href="https://ssr.upm.es/en/doctorado/"><img class="svg"-->
+                            <!--                                                                                                src="assets/img/svg/location.svg"-->
+                            <!--                                                                                                alt=""/><span>Madrid</span></a>-->
+                            <!--                                            </div>-->
+                            <!--                                        </div>-->
+                            <!--                                        <h3 class="title"><a href="#">PhD in Communications Technologies and Systems</a>-->
+                            <!--                                        </h3>-->
+                            <!--                                        <p>Technical University of Madrid</p>-->
+                            <!--                                        <div class="tokyo_tm_read_more">-->
+                            <!--                                            <a href="#"><span>Read More</span></a>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="main_content">-->
+                            <!--                                        <div class="descriptions">-->
+                            <!--                                            &lt;!&ndash;                                                <p class="bigger">Telefónica.</p>&ndash;&gt;-->
+                            <!--                                            <p>This PhD program aims to produce high-level PhD theses in the fields-->
+                            <!--                                                of:</p>-->
+                            <!--                                            <p>- Radicommunications.</p>-->
+                            <!--                                            <p>- Optical communications.</p>-->
+                            <!--                                            <p>- Signal processing.</p>-->
+                            <!--                                            <p>- Audiovisual systems.</p>-->
+                            <!--                                            <p>It is also intended to promote the personal development of PhD students-->
+                            <!--                                                through participation in international research projects and stages in-->
+                            <!--                                                prestigious research centers abroad.</p>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                </div>-->
+                            <!--                            </li>-->
+                            <!--                            <li>-->
+                            <!--                                <div class="list_inner">-->
+                            <!--                                    <div class="image">-->
+                            <!--                                        <img src="assets/img/jpg/exp/master.jpg" alt=""/>-->
+                            <!--                                        <div class="main" data-img-url="assets/img/jpg/exp/master.jpg"></div>-->
+                            <!--                                        <a class="tokyo_tm_full_link" href="#"></a>-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="details">-->
+                            <!--                                        <div class="extra">-->
+                            <!--                                            <div class="short">-->
+                            <!--                                                <p class="date">Feb 2019 <span>Jan 2020</span></p>-->
+                            <!--                                            </div>-->
+                            <!--                                            <div class="my_like">-->
+                            <!--                                                <a href="https://ssr.upm.es/en/mutsc/"><img class="svg"-->
+                            <!--                                                                                            src="assets/img/svg/location.svg"-->
+                            <!--                                                                                            alt=""/><span>Madrid</span></a>-->
+                            <!--                                            </div>-->
+                            <!--                                        </div>-->
+                            <!--                                        <h3 class="title"><a href="#">M.S. in Signal Processing and Machine Learning for-->
+                            <!--                                            Big Data</a></h3>-->
+                            <!--                                        <p>Technical University of Madrid</p>-->
+                            <!--                                        <div class="tokyo_tm_read_more">-->
+                            <!--                                            <a href="#"><span>Read More</span></a>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="main_content">-->
+                            <!--                                        <div class="descriptions">-->
+                            <!--                                            <p class="bigger">Master's thesis: 5G Media QoE Optimization based on-->
+                            <!--                                                Reinforcement Learning algorithms (A2C).</p>-->
+                            <!--                                            <p>- Fundamental courses on statistical analysis, time series analysis and-->
+                            <!--                                                optimization methods for machine learning and signal processing-->
+                            <!--                                                techniques.</p>-->
+                            <!--                                            <p>- Knowledge of real-world signals, such as speech, images, movies, music,-->
+                            <!--                                                biological and sensor readings and financial series.</p>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                            </li>-->
+                            <!--                            <li>-->
+                            <!--                                <div class="list_inner" style="display:none">-->
+                            <!--                                    <div class="image">-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="details">-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="main_content">-->
+                            <!--                                        <div class="descriptions">-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                            </li>-->
+                            <!--                            <li>-->
+                            <!--                                <div class="list_inner">-->
+                            <!--                                    <div class="image">-->
+                            <!--                                        <img src="assets/img/jpg/exp/degree.jpg" alt=""/>-->
+                            <!--                                        <div class="main" data-img-url="assets/img/jpg/exp/degree.jpg"></div>-->
+                            <!--                                        <a class="tokyo_tm_full_link" href="#"></a>-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="details">-->
+                            <!--                                        <div class="extra">-->
+                            <!--                                            <div class="short">-->
+                            <!--                                                <p class="date">Sep 2011 <span>Jan 2018</span></p>-->
+                            <!--                                            </div>-->
+                            <!--                                            <div class="my_like">-->
+                            <!--                                                <a href="https://www.uc3m.es/bachelor-degree/mobile-space-communications"><img-->
+                            <!--                                                        class="svg" src="assets/img/svg/location.svg" alt=""/><span>Madrid</span></a>-->
+                            <!--                                            </div>-->
+                            <!--                                        </div>-->
+                            <!--                                        <h3 class="title"><a href="#">B.S. in Mobile and Space Communications-->
+                            <!--                                            Engineering, Telecommunication Engineer</a></h3>-->
+                            <!--                                        <p>Carlos III University of Madrid</p>-->
+                            <!--                                        <div class="tokyo_tm_read_more">-->
+                            <!--                                            <a href="#"><span>Read More</span></a>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="main_content">-->
+                            <!--                                        <div class="descriptions">-->
+                            <!--                                            <p class="bigger">Bachelor's thesis: Analysis of IPv6 Multicast Traffic in a-->
+                            <!--                                                Network Emulator.</p>-->
+                            <!--                                            <p>- Base of treatment and signal propagation in different physical-->
+                            <!--                                                media.</p>-->
+                            <!--                                            <p>- Knowledge needed to develop electronic communication systems.</p>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                </div>-->
+                            <!--                            </li>-->
                         </ul>
                     </div>
                 </div>
@@ -808,12 +825,12 @@
                                             </div>
                                             <div class="my_like">
                                                 <a href="https://conferences.sigcomm.org/sigcomm/2022/workshop-nai.html">
-                                                    <span>Workshop</span>
+                                                    <span>Conference Paper</span>
                                                 </a>
                                             </div>
                                         </div>
                                         <h3 class="title"><a
-                                                href="https://conferences.sigcomm.org/sigcomm/2022/workshop-nai.html">
+                                                href="https://dl.acm.org/doi/10.1145/3538401.3546602">
                                             A Topological and performance metrics approach to the decision making of
                                             Content Delivery Networks</a></h3>
                                         <div class="tokyo_tm_read_more">
@@ -1073,11 +1090,11 @@
     <div class="mouse-cursor cursor-outer"></div>
     <div class="mouse-cursor cursor-inner"></div>
 </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<!--<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>-->
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/init.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>
+<!--<script async defer-->
+<!--        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>-->
 </body>
 </html>
